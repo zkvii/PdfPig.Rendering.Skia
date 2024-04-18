@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PdfPig.Rendering.Skia.NativeTest (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PdfPig.Rendering.Skia.NativeTest (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

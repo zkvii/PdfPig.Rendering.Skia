@@ -60,10 +60,6 @@ namespace UglyToad.PdfPig.Rendering.Skia
             }
 
             bool? fill = textRenderingMode.IsFill();
-            if (!fill.HasValue)
-            {
-                return;
-            }
 
             if (!fill.Value && !stroke.Value)
             {
